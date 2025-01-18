@@ -47,6 +47,18 @@ Key Skills: Python, Pandas, Matplotlib, Regression Analysis.
 Link: [Project Repository](https://github.com/AnalystAdetola/PortfolioProjects/tree/main/WorldHapiness)
 
 
+
+
+### Interactive HR Dashboard
+
+Description: An interactive HR dashboard analyzing synthetic employee data generated with Python's Faker library. Features include key HR metrics, trend analysis, and detailed employee records to support workforce decision-making.
+
+Key Skills: Python, Tableau.
+
+Link: [Project Repository](https://github.com/AnalystAdetola/PortfolioProjects/tree/main/InteractiveHRDashboard)
+
+
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🛠 Technical Skills
