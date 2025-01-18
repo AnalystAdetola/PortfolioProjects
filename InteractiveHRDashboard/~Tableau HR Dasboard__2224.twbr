@@ -1,0 +1,3513 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1010.1014                               -->
+<workbook original-version='18.1' source-build='2024.3.0 (20243.24.1010.1014)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <CustomReferenceLineTooltips />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <Layers />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneFriendlyName />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <style>
+    <style-rule element='all'>
+      <format attr='font-family' value='Segoe Print' />
+      <format attr='color' value='#777777' />
+    </style-rule>
+  </style>
+  <datasources>
+    <datasource caption='HumanResources (HumanResources)' inline='true' name='federated.13vkb6b1t5sr5v12uabqs1y1bipq' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='HumanResources' name='excel-direct.06sof5l1o2kiir1agr14212rv8r0'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/israe/OneDrive/Documents/PortfolioProjects/HumanResources/HumanResources.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.06sof5l1o2kiir1agr14212rv8r0' name='HumanResources' table='[HumanResources$]' type='table'>
+          <columns gridOrigin='A1:O8951:no:A1:O8951:0' header='yes' outcome='2'>
+            <column datatype='string' name='employee_id' ordinal='0' />
+            <column datatype='string' name='first_name' ordinal='1' />
+            <column datatype='string' name='last_name' ordinal='2' />
+            <column datatype='string' name='gender' ordinal='3' />
+            <column datatype='string' name='state' ordinal='4' />
+            <column datatype='string' name='city' ordinal='5' />
+            <column datatype='date' name='hiredate' ordinal='6' />
+            <column datatype='string' name='department' ordinal='7' />
+            <column datatype='string' name='job_title' ordinal='8' />
+            <column datatype='string' name='education_level' ordinal='9' />
+            <column datatype='integer' name='salary' ordinal='10' />
+            <column datatype='string' name='performance_rating' ordinal='11' />
+            <column datatype='string' name='overtime' ordinal='12' />
+            <column datatype='date' name='birthdate' ordinal='13' />
+            <column datatype='date' name='termdate' ordinal='14' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[HumanResources]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:O8951:no:A1:O8951:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>employee_id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[employee_id]</local-name>
+            <parent-name>[HumanResources]</parent-name>
+            <remote-alias>employee_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[HumanResources_2D1BD62844EE4267833CE2E0DE36F33A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>first_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[first_name]</local-name>
+            <parent-name>[HumanResources]</parent-name>
+            <remote-alias>first_name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[HumanResources_2D1BD62844EE4267833CE2E0DE36F33A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>last_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[last_name]</local-name>
+            <parent-name>[HumanResources]</parent-name>
+            <remote-alias>last_name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[HumanResources_2D1BD62844EE4267833CE2E0DE36F33A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gender</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[gender]</local-name>
+            <parent-name>[HumanResources]</parent-name>
+            <remote-alias>gender</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[HumanResources_2D1BD62844EE4267833CE2E0DE36F33A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>state</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[state]</local-name>
+            <parent-name>[HumanResources]</parent-name>
+            <remote-alias>state</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[HumanResources_2D1BD62844EE4267833CE2E0DE36F33A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>city</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[city]</local-name>
+            <parent-name>[HumanResources]</parent-name>
+            <remote-alias>city</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[HumanResources_2D1BD62844EE4267833CE2E0DE36F33A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hiredate</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[hiredate]</local-name>
+            <parent-name>[HumanResources]</parent-name>
+            <remote-alias>hiredate</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[HumanResources_2D1BD62844EE4267833CE2E0DE36F33A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>department</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[department]</local-name>
+            <parent-name>[HumanResources]</parent-name>
+            <remote-alias>department</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[HumanResources_2D1BD62844EE4267833CE2E0DE36F33A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>job_title</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[job_title]</local-name>
+            <parent-name>[HumanResources]</parent-name>
+            <remote-alias>job_title</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[HumanResources_2D1BD62844EE4267833CE2E0DE36F33A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>education_level</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[education_level]</local-name>
+            <parent-name>[HumanResources]</parent-name>
+            <remote-alias>education_level</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[HumanResources_2D1BD62844EE4267833CE2E0DE36F33A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>salary</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[salary]</local-name>
+            <parent-name>[HumanResources]</parent-name>
+            <remote-alias>salary</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[HumanResources_2D1BD62844EE4267833CE2E0DE36F33A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>performance_rating</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[performance_rating]</local-name>
+            <parent-name>[HumanResources]</parent-name>
+            <remote-alias>performance_rating</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[HumanResources_2D1BD62844EE4267833CE2E0DE36F33A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>overtime</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[overtime]</local-name>
+            <parent-name>[HumanResources]</parent-name>
+            <remote-alias>overtime</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[HumanResources_2D1BD62844EE4267833CE2E0DE36F33A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>birthdate</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[birthdate]</local-name>
+            <parent-name>[HumanResources]</parent-name>
+            <remote-alias>birthdate</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[HumanResources_2D1BD62844EE4267833CE2E0DE36F33A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>termdate</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[termdate]</local-name>
+            <parent-name>[HumanResources]</parent-name>
+            <remote-alias>termdate</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[HumanResources_2D1BD62844EE4267833CE2E0DE36F33A]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='% Total Hired' datatype='real' default-format='p0.00%' name='[Calculation1]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_1029354025945972736] / TOTAL([Calculation_1029354025945972736])'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Total Hired' datatype='integer' name='[Calculation_1029354025945972736]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT([employee_id])' />
+      </column>
+      <column caption='Total Terminated' datatype='integer' name='[Calculation_1029354025946202113]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT(IF NOT ISNULL([termdate]) THEN [employee_id] END)' />
+      </column>
+      <column caption='Total Active' datatype='integer' name='[Calculation_1029354025947131906]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT(IF ISNULL([termdate]) THEN [employee_id] END)' />
+      </column>
+      <column caption='Location' datatype='string' name='[Calculation_1029354025953296389]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='CASE [state]&#13;&#10;    WHEN &apos;Stockholm&apos; THEN &apos;HQ&apos;&#13;&#10;    ELSE &apos;Branch&apos;&#13;&#10;END' />
+      </column>
+      <column caption='AVG(0)' datatype='real' name='[Calculation_1029354025971171338]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG(0)' />
+      </column>
+      <column caption='Age' datatype='integer' name='[Calculation_1029354025972903947]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='DATEDIFF(&apos;year&apos;, [birthdate], TODAY())' />
+      </column>
+      <column caption='Age Groups' datatype='string' name='[Calculation_1029354025973391372]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Calculation_1029354025972903947] &lt; 25 THEN &apos;&gt;25&apos;&#13;&#10;ELSEIF [Calculation_1029354025972903947] &gt;= 25 AND [Calculation_1029354025972903947] &lt; 35 THEN &apos;25-34&apos;&#13;&#10;ELSEIF [Calculation_1029354025972903947] &gt;= 35 AND [Calculation_1029354025972903947] &lt; 45 THEN &apos;35-44&apos;&#13;&#10;ELSEIF [Calculation_1029354025972903947] &gt;= 45 AND [Calculation_1029354025972903947] &lt; 55 THEN &apos;45-54&apos;&#13;&#10;ELSEIF [Calculation_1029354025972903947] &gt;= 55 THEN &apos;55+&apos;&#13;&#10;END' />
+      </column>
+      <column caption='Status' datatype='string' name='[Calculation_156500123461754880]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF ISNULL([termdate]) THEN &apos;Hired&apos;&#13;&#10;ELSE &apos;Terminated&apos;&#13;&#10;END' />
+      </column>
+      <column caption='HumanResources' datatype='table' name='[__tableau_internal_object_id__].[HumanResources_2D1BD62844EE4267833CE2E0DE36F33A]' role='measure' type='quantitative' />
+      <column caption='Birthdate' datatype='date' name='[birthdate]' role='dimension' type='ordinal' />
+      <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal'>
+        <semantic-values semantic-role='[City].[Name]'>
+          <semantic-value key='&quot;BorÃ¥s&quot;' value='&quot;Borås&quot;' />
+          <semantic-value key='&quot;EnkÃ¶ping&quot;' value='&quot;Enköping&quot;' />
+          <semantic-value key='&quot;GÃ¶teborg&quot;' value='&quot;Göteborg&quot;' />
+          <semantic-value key='&quot;Karlskrona&quot;' value='&quot;Karlskrona&quot;' />
+          <semantic-value key='&quot;Lugnvik&quot;' value='&quot;Lugnvik&quot;' />
+          <semantic-value key='&quot;MÃ¶lndal&quot;' value='&quot;Mölndal&quot;' />
+          <semantic-value key='&quot;MalmÃ¶&quot;' value='&quot;Malmö&quot;' />
+          <semantic-value key='&quot;Norr&quot;' value='&quot;Norrala&quot;' />
+          <semantic-value key='&quot;Odenslund&quot;' value='&quot;Odensbacken&quot;' />
+          <semantic-value key='&quot;VÃ¤stervik&quot;' value='&quot;Västervik&quot;' />
+        </semantic-values>
+      </column>
+      <column caption='Department' datatype='string' name='[department]' role='dimension' type='nominal' />
+      <column caption='Education Level' datatype='string' name='[education_level]' role='dimension' type='nominal' />
+      <column caption='Employee Id' datatype='string' name='[employee_id]' role='dimension' type='nominal' />
+      <column caption='First Name' datatype='string' name='[first_name]' role='dimension' type='nominal' />
+      <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+      <column caption='Hiredate' datatype='date' name='[hiredate]' role='dimension' type='ordinal' />
+      <column caption='Job Title' datatype='string' name='[job_title]' role='dimension' type='nominal' />
+      <column caption='Last Name' datatype='string' name='[last_name]' role='dimension' type='nominal' />
+      <column caption='Overtime' datatype='string' name='[overtime]' role='dimension' type='nominal' />
+      <column caption='Performance Rating' datatype='string' name='[performance_rating]' role='dimension' type='nominal' />
+      <column caption='Salary' datatype='integer' name='[salary]' role='measure' type='quantitative' />
+      <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+        <semantic-values semantic-role='[State].[Name]'>
+          <semantic-value key='&quot;Ã–stersund&quot;' value='&quot;Östergötlands&quot;' />
+          <semantic-value key='&quot;SkÃ¥ne&quot;' value='&quot;Skåne&quot;' />
+          <semantic-value key='&quot;VÃ¤rmland&quot;' value='&quot;Värmlands&quot;' />
+          <semantic-value key='&quot;VÃ¤stra GÃ¶taland&quot;' value='&quot;Västra Götalands&quot;' />
+        </semantic-values>
+      </column>
+      <column caption='Termdate' datatype='date' name='[termdate]' role='dimension' type='ordinal' />
+      <column-instance column='[Calculation_1029354025953296389]' derivation='None' name='[none:Calculation_1029354025953296389:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Calculation_156500123461754880]' derivation='None' name='[none:Calculation_156500123461754880:nk]' pivot='key' type='nominal' />
+      <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+      <drill-paths>
+        <drill-path name='Department, Job Title'>
+          <field>[department]</field>
+          <field>[job_title]</field>
+        </drill-path>
+        <drill-path name='state, city'>
+          <field>[state]</field>
+          <field>[city]</field>
+        </drill-path>
+      </drill-paths>
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='Data/TableauTemp/#TableauTemp_0dacjdv0nr7sso1eeh57800rwu5j.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='01/14/2025 03:38:20 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>employee_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[employee_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>employee_id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>HumanResources</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>8950</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[HumanResources_2D1BD62844EE4267833CE2E0DE36F33A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>first_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[first_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>first_name</remote-alias>
+              <ordinal>1</ordinal>
+              <family>HumanResources</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>659</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[HumanResources_2D1BD62844EE4267833CE2E0DE36F33A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>last_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[last_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>last_name</remote-alias>
+              <ordinal>2</ordinal>
+              <family>HumanResources</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1017</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[HumanResources_2D1BD62844EE4267833CE2E0DE36F33A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>gender</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[gender]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>gender</remote-alias>
+              <ordinal>3</ordinal>
+              <family>HumanResources</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[HumanResources_2D1BD62844EE4267833CE2E0DE36F33A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>state</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[state]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>state</remote-alias>
+              <ordinal>4</ordinal>
+              <family>HumanResources</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[HumanResources_2D1BD62844EE4267833CE2E0DE36F33A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>city</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[city]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>city</remote-alias>
+              <ordinal>5</ordinal>
+              <family>HumanResources</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>24</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[HumanResources_2D1BD62844EE4267833CE2E0DE36F33A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>hiredate</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[hiredate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>hiredate</remote-alias>
+              <ordinal>6</ordinal>
+              <family>HumanResources</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>2475</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[HumanResources_2D1BD62844EE4267833CE2E0DE36F33A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>department</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[department]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>department</remote-alias>
+              <ordinal>7</ordinal>
+              <family>HumanResources</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[HumanResources_2D1BD62844EE4267833CE2E0DE36F33A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>job_title</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[job_title]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>job_title</remote-alias>
+              <ordinal>8</ordinal>
+              <family>HumanResources</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>28</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[HumanResources_2D1BD62844EE4267833CE2E0DE36F33A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>education_level</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[education_level]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>education_level</remote-alias>
+              <ordinal>9</ordinal>
+              <family>HumanResources</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[HumanResources_2D1BD62844EE4267833CE2E0DE36F33A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>salary</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[salary]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>salary</remote-alias>
+              <ordinal>10</ordinal>
+              <family>HumanResources</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5300</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[HumanResources_2D1BD62844EE4267833CE2E0DE36F33A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>performance_rating</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[performance_rating]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>performance_rating</remote-alias>
+              <ordinal>11</ordinal>
+              <family>HumanResources</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[HumanResources_2D1BD62844EE4267833CE2E0DE36F33A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>overtime</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[overtime]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>overtime</remote-alias>
+              <ordinal>12</ordinal>
+              <family>HumanResources</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[HumanResources_2D1BD62844EE4267833CE2E0DE36F33A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>birthdate</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[birthdate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>birthdate</remote-alias>
+              <ordinal>13</ordinal>
+              <family>HumanResources</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>4254</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[HumanResources_2D1BD62844EE4267833CE2E0DE36F33A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>termdate</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[termdate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>termdate</remote-alias>
+              <ordinal>14</ordinal>
+              <family>HumanResources</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>670</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[HumanResources_2D1BD62844EE4267833CE2E0DE36F33A]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Calculation_1029354025953296389:nk]' type='palette'>
+            <map to='#03c4a1'>
+              <bucket>&quot;HQ&quot;</bucket>
+            </map>
+            <map to='#777777'>
+              <bucket>&quot;Branch&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:gender:nk]' type='palette'>
+            <map to='#03aa8b'>
+              <bucket>&quot;Male&quot;</bucket>
+            </map>
+            <map to='#04ffd1'>
+              <bucket>&quot;Female&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='shape' field='[none:gender:nk]' type='shape'>
+            <map to='circle'>
+              <bucket>&quot;Female&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;Male&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Calculation_156500123461754880:nk]' type='palette'>
+            <map to='#03c4a1'>
+              <bucket>&quot;Hired&quot;</bucket>
+            </map>
+            <map to='#c52a87'>
+              <bucket>&quot;Terminated&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[City].[Name]' value='%null%' />
+        <semantic-value key='[Country].[Name]' value='&quot;Sweden&quot;' />
+        <semantic-value key='[State].[Name]' value='&quot;Blekinge&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='HumanResources' id='HumanResources_2D1BD62844EE4267833CE2E0DE36F33A'>
+            <properties context=''>
+              <relation connection='excel-direct.06sof5l1o2kiir1agr14212rv8r0' name='HumanResources' table='[HumanResources$]' type='table'>
+                <columns gridOrigin='A1:O8951:no:A1:O8951:0' header='yes' outcome='2'>
+                  <column datatype='string' name='employee_id' ordinal='0' />
+                  <column datatype='string' name='first_name' ordinal='1' />
+                  <column datatype='string' name='last_name' ordinal='2' />
+                  <column datatype='string' name='gender' ordinal='3' />
+                  <column datatype='string' name='state' ordinal='4' />
+                  <column datatype='string' name='city' ordinal='5' />
+                  <column datatype='date' name='hiredate' ordinal='6' />
+                  <column datatype='string' name='department' ordinal='7' />
+                  <column datatype='string' name='job_title' ordinal='8' />
+                  <column datatype='string' name='education_level' ordinal='9' />
+                  <column datatype='integer' name='salary' ordinal='10' />
+                  <column datatype='string' name='performance_rating' ordinal='11' />
+                  <column datatype='string' name='overtime' ordinal='12' />
+                  <column datatype='date' name='birthdate' ordinal='13' />
+                  <column datatype='date' name='termdate' ordinal='14' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Age Groups'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HumanResources (HumanResources)' name='federated.13vkb6b1t5sr5v12uabqs1y1bipq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.13vkb6b1t5sr5v12uabqs1y1bipq'>
+            <column caption='Total Hired' datatype='integer' name='[Calculation_1029354025945972736]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([employee_id])' />
+            </column>
+            <column caption='Age' datatype='integer' name='[Calculation_1029354025972903947]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='DATEDIFF(&apos;year&apos;, [birthdate], TODAY())' />
+            </column>
+            <column caption='Age Groups' datatype='string' name='[Calculation_1029354025973391372]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Calculation_1029354025972903947] &lt; 25 THEN &apos;&gt;25&apos;&#13;&#10;ELSEIF [Calculation_1029354025972903947] &gt;= 25 AND [Calculation_1029354025972903947] &lt; 35 THEN &apos;25-34&apos;&#13;&#10;ELSEIF [Calculation_1029354025972903947] &gt;= 35 AND [Calculation_1029354025972903947] &lt; 45 THEN &apos;35-44&apos;&#13;&#10;ELSEIF [Calculation_1029354025972903947] &gt;= 45 AND [Calculation_1029354025972903947] &lt; 55 THEN &apos;45-54&apos;&#13;&#10;ELSEIF [Calculation_1029354025972903947] &gt;= 55 THEN &apos;55+&apos;&#13;&#10;END' />
+            </column>
+            <column caption='Birthdate' datatype='date' name='[birthdate]' role='dimension' type='ordinal' />
+            <column caption='Employee Id' datatype='string' name='[employee_id]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1029354025973391372]' derivation='None' name='[none:Calculation_1029354025973391372:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1029354025945972736]' derivation='User' name='[usr:Calculation_1029354025945972736:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:Calculation_1029354025973391372:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;&gt;25&quot;</bucket>
+              <bucket>&quot;25-34&quot;</bucket>
+              <bucket>&quot;35-44&quot;</bucket>
+              <bucket>&quot;45-54&quot;</bucket>
+              <bucket>&quot;55+&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025945972736:qk]' scope='rows' value='false' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='color' value='#777777' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:Calculation_1029354025973391372:nk]' value='false' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.7251380681991577' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#777777' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025945972736:qk]</rows>
+        <cols>[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:Calculation_1029354025973391372:nk]</cols>
+      </table>
+      <simple-id uuid='{AF9965F7-9877-450E-84C2-A4C38B806093}' />
+    </worksheet>
+    <worksheet name='Age vs Education'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HumanResources (HumanResources)' name='federated.13vkb6b1t5sr5v12uabqs1y1bipq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.13vkb6b1t5sr5v12uabqs1y1bipq'>
+            <column caption='Total Hired' datatype='integer' name='[Calculation_1029354025945972736]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([employee_id])' />
+            </column>
+            <column caption='Age' datatype='integer' name='[Calculation_1029354025972903947]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='DATEDIFF(&apos;year&apos;, [birthdate], TODAY())' />
+            </column>
+            <column caption='Age Groups' datatype='string' name='[Calculation_1029354025973391372]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Calculation_1029354025972903947] &lt; 25 THEN &apos;&gt;25&apos;&#13;&#10;ELSEIF [Calculation_1029354025972903947] &gt;= 25 AND [Calculation_1029354025972903947] &lt; 35 THEN &apos;25-34&apos;&#13;&#10;ELSEIF [Calculation_1029354025972903947] &gt;= 35 AND [Calculation_1029354025972903947] &lt; 45 THEN &apos;35-44&apos;&#13;&#10;ELSEIF [Calculation_1029354025972903947] &gt;= 45 AND [Calculation_1029354025972903947] &lt; 55 THEN &apos;45-54&apos;&#13;&#10;ELSEIF [Calculation_1029354025972903947] &gt;= 55 THEN &apos;55+&apos;&#13;&#10;END' />
+            </column>
+            <column caption='Birthdate' datatype='date' name='[birthdate]' role='dimension' type='ordinal' />
+            <column caption='Education Level' datatype='string' name='[education_level]' role='dimension' type='nominal' />
+            <column caption='Employee Id' datatype='string' name='[employee_id]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1029354025973391372]' derivation='None' name='[none:Calculation_1029354025973391372:nk]' pivot='key' type='nominal' />
+            <column-instance column='[education_level]' derivation='None' name='[none:education_level:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1029354025945972736]' derivation='User' name='[usr:Calculation_1029354025945972736:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:education_level:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;High School&quot;</bucket>
+              <bucket>&quot;Bachelor&quot;</bucket>
+              <bucket>&quot;Master&quot;</bucket>
+              <bucket>&quot;PhD&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:Calculation_1029354025973391372:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025945972736:qk]' shelf='columns'>
+              <sort-filter-info>
+                <sort-filter level-name='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:education_level:nk]' member-value='&quot;PhD&quot;' />
+              </sort-filter-info>
+            </shelf-sort-v2>
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='color' value='#777777' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='font-size' value='8' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:education_level:nk]' value='8' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <size column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025945972736:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.7251380681991577' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#777777' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:education_level:nk]</rows>
+        <cols>[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:Calculation_1029354025973391372:nk]</cols>
+      </table>
+      <simple-id uuid='{0F6E4A37-4C3E-46AC-96C7-E6521388CAAF}' />
+    </worksheet>
+    <worksheet name='Age vs Salary'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HumanResources (HumanResources)' name='federated.13vkb6b1t5sr5v12uabqs1y1bipq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.13vkb6b1t5sr5v12uabqs1y1bipq'>
+            <column caption='Age' datatype='integer' name='[Calculation_1029354025972903947]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='DATEDIFF(&apos;year&apos;, [birthdate], TODAY())' />
+            </column>
+            <column-instance column='[Calculation_1029354025972903947]' derivation='Avg' name='[avg:Calculation_1029354025972903947:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[salary]' derivation='Avg' name='[avg:salary:qk]' pivot='key' type='quantitative' />
+            <column caption='Birthdate' datatype='date' name='[birthdate]' role='dimension' type='ordinal' />
+            <column caption='Job Title' datatype='string' name='[job_title]' role='dimension' type='nominal' />
+            <column-instance column='[job_title]' derivation='None' name='[none:job_title:nk]' pivot='key' type='nominal' />
+            <column caption='Salary' datatype='integer' name='[salary]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[avg:salary:qk]' field-type='quantitative' scope='rows' type='space' />
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[avg:Calculation_1029354025972903947:qk]' field-type='quantitative' scope='cols' type='space' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='color' value='#777777' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='font-size' value='8' />
+          </style-rule>
+          <style-rule element='field-labels-decoration'>
+            <format attr='font-size' value='8' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+            <format attr='border-width' data-class='subtotal' scope='cols' value='0' />
+            <format attr='border-style' data-class='subtotal' scope='cols' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+            <format attr='stroke-size' id='refline0' value='1' />
+            <format attr='line-visibility' id='refline0' value='on' />
+            <format attr='line-pattern-only' id='refline0' value='dashed' />
+            <format attr='stroke-color' id='refline0' value='#7777774b' />
+            <format attr='fill-above' id='refline1' value='#00000000' />
+            <format attr='fill-below' id='refline1' value='#00000000' />
+            <format attr='stroke-size' id='refline1' value='1' />
+            <format attr='line-visibility' id='refline1' value='on' />
+            <format attr='line-pattern-only' id='refline1' value='dashed' />
+            <format attr='stroke-color' id='refline1' value='#7777774b' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:job_title:nk]' />
+              <lod column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:job_title:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[avg:salary:qk]' enable-instant-analytics='true' formula='average' id='refline0' label-type='none' probability='95' scope='per-pane' tooltip='Avg&lt;Value&gt;' tooltip-type='custom' value-column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[avg:salary:qk]' z-order='1' />
+            <reference-line axis-column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[avg:Calculation_1029354025972903947:qk]' enable-instant-analytics='true' formula='average' id='refline1' label-type='none' probability='95' scope='per-pane' tooltip='Avg&lt;Value&gt;' tooltip-type='custom' value-column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[avg:Calculation_1029354025972903947:qk]' z-order='2' />
+            <customized-label>
+              <formatted-text>
+                <run fontsize='8'>&lt;</run>
+                <run fontsize='8'>[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:job_title:nk]</run>
+                <run fontsize='8'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='auto' />
+                <format attr='vertical-align' value='auto' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='1.4392818212509155' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='shape' value=':filled/diamond' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#777777' />
+                <format attr='mark-transparency' value='188' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[avg:salary:qk]</rows>
+        <cols>[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[avg:Calculation_1029354025972903947:qk]</cols>
+      </table>
+      <simple-id uuid='{E012C3E1-C48A-4D0B-B832-14933109F2B4}' />
+    </worksheet>
+    <worksheet name='BAN Active '>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HumanResources (HumanResources)' name='federated.13vkb6b1t5sr5v12uabqs1y1bipq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.13vkb6b1t5sr5v12uabqs1y1bipq'>
+            <column caption='Total Active' datatype='integer' name='[Calculation_1029354025947131906]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT(IF ISNULL([termdate]) THEN [employee_id] END)' />
+            </column>
+            <column caption='Employee Id' datatype='string' name='[employee_id]' role='dimension' type='nominal' />
+            <column caption='Termdate' datatype='date' name='[termdate]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_1029354025947131906]' derivation='User' name='[usr:Calculation_1029354025947131906:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' value='#777777' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <text column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025947131906:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#f5f5f5' fontsize='18'>&lt;</run>
+                <run fontcolor='#f5f5f5' fontsize='18'>[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025947131906:qk]</run>
+                <run fontcolor='#f5f5f5' fontsize='18'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{B4A95DFC-1AED-43D1-BF93-9D2B27EE56FD}' />
+    </worksheet>
+    <worksheet name='BAN Hired'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HumanResources (HumanResources)' name='federated.13vkb6b1t5sr5v12uabqs1y1bipq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.13vkb6b1t5sr5v12uabqs1y1bipq'>
+            <column caption='Total Hired' datatype='integer' name='[Calculation_1029354025945972736]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([employee_id])' />
+            </column>
+            <column caption='Employee Id' datatype='string' name='[employee_id]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1029354025945972736]' derivation='User' name='[usr:Calculation_1029354025945972736:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' value='#777777' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <text column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025945972736:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#f5f5f5' fontsize='18'>&lt;</run>
+                <run fontcolor='#f5f5f5' fontsize='18'>[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025945972736:qk]</run>
+                <run fontcolor='#f5f5f5' fontsize='18'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{5BDBA419-516C-474A-A5F6-31C6CBAC6320}' />
+    </worksheet>
+    <worksheet name='BAN Terminated'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HumanResources (HumanResources)' name='federated.13vkb6b1t5sr5v12uabqs1y1bipq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.13vkb6b1t5sr5v12uabqs1y1bipq'>
+            <column caption='Total Terminated' datatype='integer' name='[Calculation_1029354025946202113]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT(IF NOT ISNULL([termdate]) THEN [employee_id] END)' />
+            </column>
+            <column caption='Employee Id' datatype='string' name='[employee_id]' role='dimension' type='nominal' />
+            <column caption='Termdate' datatype='date' name='[termdate]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_1029354025946202113]' derivation='User' name='[usr:Calculation_1029354025946202113:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' value='#777777' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <text column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025946202113:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#f5f5f5' fontsize='18'>Æ&#10;</run>
+                <run fontcolor='#f5f5f5' fontsize='18'><![CDATA[<[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025946202113:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{8102617E-626D-4844-A557-91AB8635E33E}' />
+    </worksheet>
+    <worksheet name='Departments'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HumanResources (HumanResources)' name='federated.13vkb6b1t5sr5v12uabqs1y1bipq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.13vkb6b1t5sr5v12uabqs1y1bipq'>
+            <column caption='Total Hired' datatype='integer' name='[Calculation_1029354025945972736]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([employee_id])' />
+            </column>
+            <column caption='INDEX()' datatype='integer' name='[Calculation_1029354025952800772]' role='measure' type='quantitative' user:unnamed='Departments'>
+              <calculation class='tableau' formula='INDEX()'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Status' datatype='string' name='[Calculation_156500123461754880]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF ISNULL([termdate]) THEN &apos;Hired&apos;&#13;&#10;ELSE &apos;Terminated&apos;&#13;&#10;END' />
+            </column>
+            <column caption='Department' datatype='string' name='[department]' role='dimension' type='nominal' />
+            <column caption='Employee Id' datatype='string' name='[employee_id]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_156500123461754880]' derivation='None' name='[none:Calculation_156500123461754880:nk]' pivot='key' type='nominal' />
+            <column-instance column='[department]' derivation='None' name='[none:department:nk]' pivot='key' type='nominal' />
+            <column caption='Termdate' datatype='date' name='[termdate]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_1029354025945972736]' derivation='User' name='[usr:Calculation_1029354025945972736:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1029354025952800772]' derivation='User' name='[usr:Calculation_1029354025952800772:ok]' pivot='key' type='ordinal'>
+              <table-calc ordering-type='Columns' />
+            </column-instance>
+          </datasource-dependencies>
+          <manual-sort column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:Calculation_156500123461754880:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Terminated&quot;</bucket>
+              <bucket>&quot;Hired&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:department:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025945972736:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025945972736:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='color' value='#777777' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025952800772:ok]' value='12' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='font-size' value='8' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:Calculation_156500123461754880:nk]' />
+              <text column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025945972736:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#f5f5f5' fontsize='7'>&lt;</run>
+                <run fontcolor='#f5f5f5' fontsize='7'>[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025945972736:qk]</run>
+                <run fontcolor='#f5f5f5' fontsize='7'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#03c4a1' />
+                <format attr='mark-transparency' value='255' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025952800772:ok] / [federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:department:nk])</rows>
+        <cols>[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025945972736:qk]</cols>
+      </table>
+      <simple-id uuid='{94A8F2E2-5B66-47E5-9B8A-F627F172C24A}' />
+    </worksheet>
+    <worksheet name='Education Levels'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HumanResources (HumanResources)' name='federated.13vkb6b1t5sr5v12uabqs1y1bipq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.13vkb6b1t5sr5v12uabqs1y1bipq'>
+            <column caption='Total Hired' datatype='integer' name='[Calculation_1029354025945972736]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([employee_id])' />
+            </column>
+            <column caption='Education Level' datatype='string' name='[education_level]' role='dimension' type='nominal' />
+            <column caption='Employee Id' datatype='string' name='[employee_id]' role='dimension' type='nominal' />
+            <column-instance column='[education_level]' derivation='None' name='[none:education_level:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1029354025945972736]' derivation='User' name='[usr:Calculation_1029354025945972736:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:education_level:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;High School&quot;</bucket>
+              <bucket>&quot;Bachelor&quot;</bucket>
+              <bucket>&quot;Master&quot;</bucket>
+              <bucket>&quot;PhD&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025945972736:qk]' scope='cols' value='false' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='color' value='#777777' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:education_level:nk]' value='false' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.7251380681991577' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#777777' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:education_level:nk]</rows>
+        <cols>[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025945972736:qk]</cols>
+      </table>
+      <simple-id uuid='{D9D4E4A3-39AA-4577-AA41-5F149F15CEC0}' />
+    </worksheet>
+    <worksheet name='Education vs Perfomance'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HumanResources (HumanResources)' name='federated.13vkb6b1t5sr5v12uabqs1y1bipq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.13vkb6b1t5sr5v12uabqs1y1bipq'>
+            <column caption='% Total Hired' datatype='real' default-format='p0.00%' name='[Calculation1]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_1029354025945972736] / TOTAL([Calculation_1029354025945972736])'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Total Hired' datatype='integer' name='[Calculation_1029354025945972736]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([employee_id])' />
+            </column>
+            <column caption='Education Level' datatype='string' name='[education_level]' role='dimension' type='nominal' />
+            <column caption='Employee Id' datatype='string' name='[employee_id]' role='dimension' type='nominal' />
+            <column-instance column='[education_level]' derivation='None' name='[none:education_level:nk]' pivot='key' type='nominal' />
+            <column-instance column='[performance_rating]' derivation='None' name='[none:performance_rating:nk]' pivot='key' type='nominal' />
+            <column caption='Performance Rating' datatype='string' name='[performance_rating]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation1]' derivation='User' name='[usr:Calculation1:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[performance_rating]' ordering-type='Field' />
+            </column-instance>
+          </datasource-dependencies>
+          <manual-sort column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:education_level:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;High School&quot;</bucket>
+              <bucket>&quot;Bachelor&quot;</bucket>
+              <bucket>&quot;Master&quot;</bucket>
+              <bucket>&quot;PhD&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <manual-sort column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:performance_rating:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Excellent&quot;</bucket>
+              <bucket>&quot;Good&quot;</bucket>
+              <bucket>&quot;Satisfactory&quot;</bucket>
+              <bucket>&quot;Needs Improvement&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='color' value='#777777' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='font-size' value='8' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <size column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation1:qk:2]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.7251380681991577' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#777777' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:performance_rating:nk]</rows>
+        <cols>[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:education_level:nk]</cols>
+      </table>
+      <simple-id uuid='{98612417-4DCB-47DF-B889-F57C1DA3D547}' />
+    </worksheet>
+    <worksheet name='Gender'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HumanResources (HumanResources)' name='federated.13vkb6b1t5sr5v12uabqs1y1bipq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.13vkb6b1t5sr5v12uabqs1y1bipq'>
+            <column caption='% Total Hired' datatype='real' default-format='p0.00%' name='[Calculation1]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_1029354025945972736] / TOTAL([Calculation_1029354025945972736])'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Total Hired' datatype='integer' name='[Calculation_1029354025945972736]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([employee_id])' />
+            </column>
+            <column caption='AVG(0)' datatype='real' name='[Calculation_1029354025971171338]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG(0)' />
+            </column>
+            <column caption='Employee Id' datatype='string' name='[employee_id]' role='dimension' type='nominal' />
+            <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+            <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation1]' derivation='User' name='[usr:Calculation1:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' />
+            </column-instance>
+            <column-instance column='[Calculation_1029354025945972736]' derivation='User' name='[usr:Calculation_1029354025945972736:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1029354025971171338]' derivation='User' name='[usr:Calculation_1029354025971171338:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025971171338:qk]' field-type='quantitative' fold='true' scope='cols' synchronized='true' type='space' />
+            <format attr='display' class='1' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025971171338:qk]' scope='cols' value='false' />
+            <format attr='display' class='0' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025971171338:qk]' scope='cols' value='false' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='color' value='#777777' />
+            <format attr='text-format' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation1:qk]' value='p0%' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='font-size' value='8' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#03c4a1' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025971171338:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:gender:nk]' />
+              <text column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:gender:nk]' />
+              <text column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation1:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation1:qk]</run>
+                <run>&gt;&#10;&lt;</run>
+                <run>[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:gender:nk]</run>
+                <run>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='user' />
+                <format attr='color' value='#777777' />
+                <format attr='font-size' value='8' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.7251380681991577' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-color' value='#03c4a1' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025971171338:qk]' x-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025945972736:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='user' />
+                <format attr='color' value='#777777' />
+                <format attr='font-size' value='12' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.1094474792480469' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-color' value='#333333' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:gender:nk]</rows>
+        <cols>([federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025971171338:qk] + [federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025971171338:qk])</cols>
+      </table>
+      <simple-id uuid='{7849EBEF-E9EA-40BE-8D87-F7F00D73CE61}' />
+    </worksheet>
+    <worksheet name='Gender vs Education  Level'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HumanResources (HumanResources)' name='federated.13vkb6b1t5sr5v12uabqs1y1bipq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.13vkb6b1t5sr5v12uabqs1y1bipq'>
+            <column-instance column='[salary]' derivation='Avg' name='[avg:salary:qk]' pivot='key' type='quantitative' />
+            <column caption='Education Level' datatype='string' name='[education_level]' role='dimension' type='nominal' />
+            <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+            <column-instance column='[education_level]' derivation='None' name='[none:education_level:nk]' pivot='key' type='nominal' />
+            <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+            <column caption='Salary' datatype='integer' name='[salary]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:education_level:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;High School&quot;</bucket>
+              <bucket>&quot;Bachelor&quot;</bucket>
+              <bucket>&quot;Master&quot;</bucket>
+              <bucket>&quot;PhD&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[avg:salary:qk]' field-type='quantitative' fold='true' scope='cols' synchronized='true' type='space' />
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[avg:salary:qk]' field-type='quantitative' scope='cols' type='space' />
+            <format attr='display' class='1' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[avg:salary:qk]' scope='cols' value='false' />
+            <format attr='display' class='0' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[avg:salary:qk]' scope='cols' value='false' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='color' value='#777777' />
+            <format attr='text-format' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[avg:salary:qk]' value='n#,##0,K;-#,##0,K' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='font-size' value='8' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.7251380681991577' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#777777' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[avg:salary:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <path column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:gender:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='14.547999382019043' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-labels-mode' value='line-ends' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-color' value='#777777' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[avg:salary:qk]' x-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:gender:nk]' />
+              <shape column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:gender:nk]' />
+              <text column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[avg:salary:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#f5f5f5' fontsize='8'>&lt;</run>
+                <run fontcolor='#f5f5f5' fontsize='8'>[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[avg:salary:qk]</run>
+                <run fontcolor='#f5f5f5' fontsize='8'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='auto' />
+                <format attr='vertical-align' value='auto' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='1.4392818212509155' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-color' value='#777777' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:education_level:nk]</rows>
+        <cols>([federated.13vkb6b1t5sr5v12uabqs1y1bipq].[avg:salary:qk] + [federated.13vkb6b1t5sr5v12uabqs1y1bipq].[avg:salary:qk])</cols>
+      </table>
+      <simple-id uuid='{16650505-3EEA-49C6-802A-1C9DB95FF38A}' />
+    </worksheet>
+    <worksheet name='Hired by Year'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HumanResources (HumanResources)' name='federated.13vkb6b1t5sr5v12uabqs1y1bipq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.13vkb6b1t5sr5v12uabqs1y1bipq'>
+            <column caption='Total Hired' datatype='integer' name='[Calculation_1029354025945972736]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([employee_id])' />
+            </column>
+            <column caption='Employee Id' datatype='string' name='[employee_id]' role='dimension' type='nominal' />
+            <column caption='Hiredate' datatype='date' name='[hiredate]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_1029354025945972736]' derivation='User' name='[usr:Calculation_1029354025945972736:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[hiredate]' derivation='Year' name='[yr:hiredate:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025945972736:qk]' field-type='quantitative' scope='rows' type='space' />
+            <encoding attr='space' class='1' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025945972736:qk]' field-type='quantitative' fold='true' scope='rows' synchronized='true' type='space' />
+            <format attr='display' class='0' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025945972736:qk]' scope='rows' value='false' />
+            <format attr='display' class='1' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025945972736:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='color' value='#777777' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[yr:hiredate:ok]' value='false' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#03c4a1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025945972736:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='size' value='0.097955800592899323' />
+                <format attr='mark-color' value='#03c4a1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025945972736:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#03c4a1' />
+                <format attr='mark-transparency' value='37' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025945972736:qk] + [federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025945972736:qk])</rows>
+        <cols>[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[yr:hiredate:ok]</cols>
+      </table>
+      <simple-id uuid='{902C3134-4940-4D3D-9BD1-944C9E51E15E}' />
+    </worksheet>
+    <worksheet name='Location'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HumanResources (HumanResources)' name='federated.13vkb6b1t5sr5v12uabqs1y1bipq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.13vkb6b1t5sr5v12uabqs1y1bipq'>
+            <column caption='% Total Hired' datatype='real' default-format='p0.00%' name='[Calculation1]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_1029354025945972736] / TOTAL([Calculation_1029354025945972736])'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Total Hired' datatype='integer' name='[Calculation_1029354025945972736]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([employee_id])' />
+            </column>
+            <column caption='Location' datatype='string' name='[Calculation_1029354025953296389]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='CASE [state]&#13;&#10;    WHEN &apos;Stockholm&apos; THEN &apos;HQ&apos;&#13;&#10;    ELSE &apos;Branch&apos;&#13;&#10;END' />
+            </column>
+            <column caption='Employee Id' datatype='string' name='[employee_id]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1029354025953296389]' derivation='None' name='[none:Calculation_1029354025953296389:nk]' pivot='key' type='nominal' />
+            <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+              <semantic-values semantic-role='[State].[Name]'>
+                <semantic-value key='&quot;Ã–stersund&quot;' value='&quot;Östergötlands&quot;' />
+                <semantic-value key='&quot;SkÃ¥ne&quot;' value='&quot;Skåne&quot;' />
+                <semantic-value key='&quot;VÃ¤rmland&quot;' value='&quot;Värmlands&quot;' />
+                <semantic-value key='&quot;VÃ¤stra GÃ¶taland&quot;' value='&quot;Västra Götalands&quot;' />
+              </semantic-values>
+            </column>
+            <column-instance column='[Calculation1]' derivation='User' name='[usr:Calculation1:ok]' pivot='key' type='ordinal'>
+              <table-calc ordering-type='Rows' />
+            </column-instance>
+            <column-instance column='[Calculation_1029354025945972736]' derivation='User' name='[usr:Calculation_1029354025945972736:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:Calculation_1029354025953296389:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;HQ&quot;</bucket>
+              <bucket>&quot;Branch&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025945972736:qk]' scope='rows' value='false' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='color' value='#777777' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='font-size' data-class='subtotal' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation1:ok]' value='7' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation1:ok]' value='p0%' />
+            <format attr='font-size' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation1:ok]' value='7' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:Calculation_1029354025953296389:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='size' value='1.0984530448913574' />
+                <format attr='mark-color' value='#03c4a1' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025945972736:qk]</rows>
+        <cols>([federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:Calculation_1029354025953296389:nk] / [federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation1:ok])</cols>
+      </table>
+      <simple-id uuid='{6E911E02-51D9-4738-AB6B-36E6AB6480D3}' />
+    </worksheet>
+    <worksheet name='Map States'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HumanResources (HumanResources)' name='federated.13vkb6b1t5sr5v12uabqs1y1bipq' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.13vkb6b1t5sr5v12uabqs1y1bipq'>
+            <column caption='Total Hired' datatype='integer' name='[Calculation_1029354025945972736]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([employee_id])' />
+            </column>
+            <column caption='Location' datatype='string' name='[Calculation_1029354025953296389]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='CASE [state]&#13;&#10;    WHEN &apos;Stockholm&apos; THEN &apos;HQ&apos;&#13;&#10;    ELSE &apos;Branch&apos;&#13;&#10;END' />
+            </column>
+            <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal'>
+              <semantic-values semantic-role='[City].[Name]'>
+                <semantic-value key='&quot;BorÃ¥s&quot;' value='&quot;Borås&quot;' />
+                <semantic-value key='&quot;EnkÃ¶ping&quot;' value='&quot;Enköping&quot;' />
+                <semantic-value key='&quot;GÃ¶teborg&quot;' value='&quot;Göteborg&quot;' />
+                <semantic-value key='&quot;Karlskrona&quot;' value='&quot;Karlskrona&quot;' />
+                <semantic-value key='&quot;Lugnvik&quot;' value='&quot;Lugnvik&quot;' />
+                <semantic-value key='&quot;MÃ¶lndal&quot;' value='&quot;Mölndal&quot;' />
+                <semantic-value key='&quot;MalmÃ¶&quot;' value='&quot;Malmö&quot;' />
+                <semantic-value key='&quot;Norr&quot;' value='&quot;Norrala&quot;' />
+                <semantic-value key='&quot;Odenslund&quot;' value='&quot;Odensbacken&quot;' />
+                <semantic-value key='&quot;VÃ¤stervik&quot;' value='&quot;Västervik&quot;' />
+              </semantic-values>
+            </column>
+            <column caption='Employee Id' datatype='string' name='[employee_id]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1029354025953296389]' derivation='None' name='[none:Calculation_1029354025953296389:nk]' pivot='key' type='nominal' />
+            <column-instance column='[city]' derivation='None' name='[none:city:nk]' pivot='key' type='nominal' />
+            <column-instance column='[state]' derivation='None' name='[none:state:nk]' pivot='key' type='nominal' />
+            <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+              <semantic-values semantic-role='[State].[Name]'>
+                <semantic-value key='&quot;Ã–stersund&quot;' value='&quot;Östergötlands&quot;' />
+                <semantic-value key='&quot;SkÃ¥ne&quot;' value='&quot;Skåne&quot;' />
+                <semantic-value key='&quot;VÃ¤rmland&quot;' value='&quot;Värmlands&quot;' />
+                <semantic-value key='&quot;VÃ¤stra GÃ¶taland&quot;' value='&quot;Västra Götalands&quot;' />
+              </semantic-values>
+            </column>
+            <column-instance column='[Calculation_1029354025945972736]' derivation='User' name='[usr:Calculation_1029354025945972736:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+            <format attr='tick-color' value='#00000000' />
+            <encoding attr='space' class='0' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[Longitude (generated)]' field-type='quantitative' max='2633453.3946484486' min='442879.40432218497' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[Latitude (generated)]' field-type='quantitative' max='8708347.521290347' min='7460305.3088353565' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='color' value='#777777' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='font-size' value='8' />
+          </style-rule>
+          <style-rule element='field-labels-decoration'>
+            <format attr='font-size' value='8' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025945972736:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#d5ece8</color>
+                <color>#bae8df</color>
+                <color>#a0e3d7</color>
+                <color>#87dfcf</color>
+                <color>#6edac6</color>
+                <color>#57d6bf</color>
+                <color>#41d1b7</color>
+                <color>#2bcdaf</color>
+                <color>#16c8a8</color>
+                <color>#03c4a1</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='b01002_001e' value='false' />
+            <format attr='enabled' id='b01002_002e' value='false' />
+            <format attr='enabled' id='b01002_003e' value='false' />
+            <format attr='enabled' id='dp02_0001e' value='false' />
+            <format attr='enabled' id='dp02_0015e' value='false' />
+            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
+            <format attr='enabled' id='dp03_0028e' value='false' />
+            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
+            <format attr='enabled' id='dp03_0062e' value='false' />
+            <format attr='enabled' id='dp03_0088e' value='false' />
+            <format attr='enabled' id='dp04_0001e' value='false' />
+            <format attr='enabled' id='dp04_0046e' value='false' />
+            <format attr='enabled' id='dp04_0047e' value='false' />
+            <format attr='enabled' id='dp04_0089e' value='false' />
+            <format attr='enabled' id='dp05_0001e' value='false' />
+            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
+            <format attr='enabled' id='dp05_0032e' value='false' />
+            <format attr='enabled' id='dp05_0033e' value='false' />
+            <format attr='enabled' id='dp05_0034e' value='false' />
+            <format attr='enabled' id='dp05_0039e' value='false' />
+            <format attr='enabled' id='dp05_0047e' value='false' />
+            <format attr='enabled' id='dp05_0053e' value='false' />
+            <format attr='enabled' id='dp05_0066e' value='false' />
+            <format attr='enabled' id='dp05_0077e' value='false' />
+            <format attr='enabled' id='background' value='false' />
+            <format attr='enabled' id='barrier_line-land-polygon' value='false' />
+            <format attr='enabled' id='barrier_line-land-line' value='false' />
+            <format attr='enabled' id='national_park' value='false' />
+            <format attr='enabled' id='pitch' value='false' />
+            <format attr='enabled' id='industrial' value='false' />
+            <format attr='enabled' id='built-up-area' value='false' />
+            <format attr='enabled' id='water' value='false' />
+            <format attr='enabled' id='waterway-river-canal' value='false' />
+            <format attr='enabled' id='aeroway-polygon' value='false' />
+            <format attr='enabled' id='aeroway-runway' value='false' />
+            <format attr='enabled' id='aeroway-taxiway' value='false' />
+            <format attr='enabled' id='parks' value='false' />
+            <format attr='enabled' id='landcover_wood' value='false' />
+            <format attr='enabled' id='landcover_scrub' value='false' />
+            <format attr='enabled' id='landcover_grass' value='false' />
+            <format attr='enabled' id='landcover_crop' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-bg' value='false' />
+            <format attr='enabled' id='admin-0-boundaries' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-dispute' value='false' />
+            <format attr='enabled' id='admin-0-label-5th-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-4th-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-3rd-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-2nd-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-1st-tier' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-bg-sub' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-sm-parents-bg' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-md-parents-bg' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-lg-parents-bg' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-dispute-sub' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-sub' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-supress' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-sm-parents' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-md-parents' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-lg-parents' value='false' />
+            <format attr='enabled' id='admin1-water-lines-usa-tableau' value='false' />
+            <format attr='enabled' id='9-dash-line-casing' value='false' />
+            <format attr='enabled' id='9-dash-line' value='false' />
+            <format attr='enabled' id='admin-1-label-9th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-8th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-7th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-6th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-5th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-4th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-3rd-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-2nd-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-1st-tier' value='false' />
+            <format attr='enabled' id='us-admin-1-label-abbr-3rd-tier' value='false' />
+            <format attr='enabled' id='us-admin-1-label-abbr-2nd-tier' value='false' />
+            <format attr='enabled' id='us-admin-1-label-abbr-1st-tier' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+            <format attr='map-style' value='dark' />
+          </style-rule>
+          <style-rule element='map-data-layer'>
+            <format attr='palette' value='tableau-map-blue-green-light' />
+            <format attr='geo-area-type' value='State' />
+          </style-rule>
+        </style>
+        <panes customization-axis='layer'>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:state:nk]' />
+            </encodings>
+          </pane>
+          <pane generated-title='State' id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <color column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025945972736:qk]' />
+              <text column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:state:nk]' />
+              <lod column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:state:nk]' />
+              <geometry column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-color' value='#03c4a1' />
+                <format attr='mark-transparency' value='86' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#898989' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane generated-title='City' id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:Calculation_1029354025953296389:nk]' />
+              <size column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025945972736:qk]' />
+              <lod column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:city:nk]' />
+              <lod column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:state:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.263370156288147' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#03c4a1' />
+                <format attr='mark-transparency' value='62' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[Latitude (generated)]</rows>
+        <cols>[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{4863EB38-9440-4976-B29C-7EDF3C96973F}' />
+    </worksheet>
+    <worksheet name='Terminated by Year'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HumanResources (HumanResources)' name='federated.13vkb6b1t5sr5v12uabqs1y1bipq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.13vkb6b1t5sr5v12uabqs1y1bipq'>
+            <column caption='Total Terminated' datatype='integer' name='[Calculation_1029354025946202113]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT(IF NOT ISNULL([termdate]) THEN [employee_id] END)' />
+            </column>
+            <column caption='Employee Id' datatype='string' name='[employee_id]' role='dimension' type='nominal' />
+            <column caption='Termdate' datatype='date' name='[termdate]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_1029354025946202113]' derivation='User' name='[usr:Calculation_1029354025946202113:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[termdate]' derivation='Year' name='[yr:termdate:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[yr:termdate:ok]' kind='hide'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[yr:termdate:ok]' />
+              <groupfilter function='member' level='[yr:termdate:ok]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025946202113:qk]' field-type='quantitative' fold='true' scope='rows' synchronized='true' type='space' />
+            <format attr='display' class='0' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025946202113:qk]' scope='rows' value='false' />
+            <format attr='display' class='1' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025946202113:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='color' value='#777777' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[yr:termdate:ok]' value='false' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#c52a87' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025946202113:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='size' value='0.097955800592899323' />
+                <format attr='mark-color' value='#c52a87' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025946202113:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#c52a87' />
+                <format attr='mark-transparency' value='37' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025946202113:qk] + [federated.13vkb6b1t5sr5v12uabqs1y1bipq].[usr:Calculation_1029354025946202113:qk])</rows>
+        <cols>[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[yr:termdate:ok]</cols>
+      </table>
+      <simple-id uuid='{1514992C-01C9-4C16-A993-78332DCC0555}' />
+    </worksheet>
+    <worksheet name='test'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HumanResources (HumanResources)' name='federated.13vkb6b1t5sr5v12uabqs1y1bipq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.13vkb6b1t5sr5v12uabqs1y1bipq'>
+            <column caption='Location' datatype='string' name='[Calculation_1029354025953296389]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='CASE [state]&#13;&#10;    WHEN &apos;Stockholm&apos; THEN &apos;HQ&apos;&#13;&#10;    ELSE &apos;Branch&apos;&#13;&#10;END' />
+            </column>
+            <column caption='Age' datatype='integer' name='[Calculation_1029354025972903947]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='DATEDIFF(&apos;year&apos;, [birthdate], TODAY())' />
+            </column>
+            <column caption='Age Groups' datatype='string' name='[Calculation_1029354025973391372]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Calculation_1029354025972903947] &lt; 25 THEN &apos;&gt;25&apos;&#13;&#10;ELSEIF [Calculation_1029354025972903947] &gt;= 25 AND [Calculation_1029354025972903947] &lt; 35 THEN &apos;25-34&apos;&#13;&#10;ELSEIF [Calculation_1029354025972903947] &gt;= 35 AND [Calculation_1029354025972903947] &lt; 45 THEN &apos;35-44&apos;&#13;&#10;ELSEIF [Calculation_1029354025972903947] &gt;= 45 AND [Calculation_1029354025972903947] &lt; 55 THEN &apos;45-54&apos;&#13;&#10;ELSEIF [Calculation_1029354025972903947] &gt;= 55 THEN &apos;55+&apos;&#13;&#10;END' />
+            </column>
+            <column caption='Birthdate' datatype='date' name='[birthdate]' role='dimension' type='ordinal' />
+            <column caption='Employee Id' datatype='string' name='[employee_id]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1029354025953296389]' derivation='None' name='[none:Calculation_1029354025953296389:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1029354025972903947]' derivation='None' name='[none:Calculation_1029354025972903947:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_1029354025973391372]' derivation='None' name='[none:Calculation_1029354025973391372:nk]' pivot='key' type='nominal' />
+            <column-instance column='[employee_id]' derivation='None' name='[none:employee_id:nk]' pivot='key' type='nominal' />
+            <column-instance column='[state]' derivation='None' name='[none:state:nk]' pivot='key' type='nominal' />
+            <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+              <semantic-values semantic-role='[State].[Name]'>
+                <semantic-value key='&quot;Ã–stersund&quot;' value='&quot;Östergötlands&quot;' />
+                <semantic-value key='&quot;SkÃ¥ne&quot;' value='&quot;Skåne&quot;' />
+                <semantic-value key='&quot;VÃ¤rmland&quot;' value='&quot;Värmlands&quot;' />
+                <semantic-value key='&quot;VÃ¤stra GÃ¶taland&quot;' value='&quot;Västra Götalands&quot;' />
+              </semantic-values>
+            </column>
+            <column-instance column='[birthdate]' derivation='Year' name='[yr:birthdate:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:Calculation_1029354025973391372:nk]'>
+            <groupfilter function='empty-level' member='[none:Calculation_1029354025973391372:nk]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:Calculation_1029354025973391372:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>([federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:employee_id:nk] / ([federated.13vkb6b1t5sr5v12uabqs1y1bipq].[yr:birthdate:ok] / ([federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:Calculation_1029354025972903947:ok] / ([federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:Calculation_1029354025973391372:nk] / ([federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:state:nk] / [federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:Calculation_1029354025953296389:nk])))))</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{83752161-4C0B-4C0F-BA32-CB0239B47578}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='HR | Summary'>
+      <style />
+      <size maxheight='800' maxwidth='1400' minheight='800' minwidth='1400' sizing-mode='fixed' />
+      <zones>
+        <zone friendly-name='Whole Dashboard' h='100000' id='3' param='horz' type-v2='layout-flow' w='100000' x='0' y='0'>
+          <zone fixed-size='139' friendly-name='Navi' h='99250' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='9929' x='214' y='375'>
+            <zone h='49250' id='7' type-v2='empty' w='9501' x='428' y='750'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='49250' id='8' type-v2='empty' w='9501' x='428' y='50000'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone-style>
+              <format attr='border-color' value='#f28e2b' />
+              <format attr='border-style' value='solid' />
+              <format attr='border-width' value='3' />
+              <format attr='background-color' value='#1b1b1b' />
+            </zone-style>
+          </zone>
+          <zone fixed-size='1214' friendly-name='Header &amp; Charts' h='99250' id='9' is-fixed='true' param='vert' type-v2='layout-flow' w='86714' x='10143' y='375'>
+            <zone friendly-name='Header' h='7000' id='12' param='horz' type-v2='layout-flow' w='86286' x='10357' y='750'>
+              <zone forceUpdate='true' h='6250' id='13' type-v2='text' w='46643' x='10571' y='1125'>
+                <formatted-text>
+                  <run bold='true' fontcolor='#f5f5f5' fontsize='20'>Human Resources Dashboards</run>
+                  <run fontcolor='#f5f5f5' fontsize='20'> | Overview</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='6250' id='14' type-v2='empty' w='39215' x='57214' y='1125'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#4e79a7' />
+                <format attr='border-style' value='solid' />
+                <format attr='border-width' value='3' />
+              </zone-style>
+            </zone>
+            <zone fixed-size='703' friendly-name='Left &amp; Right Sections' h='87875' id='15' is-fixed='true' param='horz' type-v2='layout-flow' w='86286' x='10357' y='7750'>
+              <zone friendly-name='Overview Left Section' h='87875' id='18' param='vert' type-v2='layout-flow' w='31715' x='10357' y='7750'>
+                <zone forceUpdate='true' h='5250' id='19' type-v2='text' w='31287' x='10571' y='8125'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#f5f5f5' fontsize='14'>Overview</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='3625' id='36' type-v2='text' w='31287' x='10571' y='13375'>
+                  <formatted-text>
+                    <run fontalignment='1'>Active Employees</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='24' h='4000' id='37' is-fixed='true' name='BAN Active ' show-title='false' w='31287' x='10571' y='17000'>
+                  <layout-cache cell-count-w='1' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone friendly-name='Divider' h='4003' id='38' type-v2='empty' w='31287' x='10571' y='21000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='0' />
+                    <format attr='background-color' value='#77777793' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='144' friendly-name='KPI Section' h='18000' id='39' is-fixed='true' param='horz' type-v2='layout-flow' w='31287' x='10571' y='25003'>
+                  <zone fixed-size='121' friendly-name='Hired KPI' h='17250' id='42' is-fixed='true' param='vert' type-v2='layout-flow' w='8643' x='10785' y='25378'>
+                    <zone forceUpdate='true' h='3625' id='43' type-v2='text' w='8643' x='10785' y='25378'>
+                      <formatted-text>
+                        <run fontalignment='1'>Hired</run>
+                      </formatted-text>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone fixed-size='45' h='6625' id='44' is-fixed='true' name='BAN Hired' show-title='false' w='8643' x='10785' y='29003'>
+                      <layout-cache cell-count-w='1' type-h='cell' type-w='cell' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='7000' id='45' name='Hired by Year' show-title='false' w='8643' x='10785' y='35628'>
+                      <layout-cache cell-count-w='10' minheight='100' type-h='scalable' type-w='cell' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                  <zone fixed-size='65' friendly-name='Divider' h='17250' id='41' is-fixed='true' type-v2='empty' w='4643' x='19428' y='25378'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='0' />
+                      <format attr='background-color' value='#77777793' />
+                    </zone-style>
+                  </zone>
+                  <zone friendly-name='Term KPI' h='17250' id='46' param='vert' type-v2='layout-flow' w='17567' x='24071' y='25378'>
+                    <zone h='3625' id='47' type-v2='text' w='17567' x='24071' y='25378'>
+                      <formatted-text>
+                        <run fontalignment='1'>Terminated</run>
+                      </formatted-text>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone fixed-size='45' h='6625' id='48' is-fixed='true' name='BAN Terminated' show-title='false' w='17567' x='24071' y='29003'>
+                      <layout-cache cell-count-w='1' type-h='cell' type-w='cell' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='7000' id='49' name='Terminated by Year' show-title='false' w='17567' x='24071' y='35628'>
+                      <layout-cache cell-count-w='11' minheight='100' type-h='scalable' type-w='cell' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                  <zone-style>
+                    <format attr='border-color' value='#4e79a7' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='3' />
+                  </zone-style>
+                </zone>
+                <zone friendly-name='Departments Title' h='4375' id='50' param='horz' type-v2='layout-flow' w='31287' x='10571' y='43003'>
+                  <zone h='4375' id='52' type-v2='empty' w='10524' x='10571' y='43003'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='0' />
+                      <format attr='background-color' value='#77777793' />
+                    </zone-style>
+                  </zone>
+                  <zone forceUpdate='true' h='4375' id='51' type-v2='text' w='10238' x='21095' y='43003'>
+                    <formatted-text>
+                      <run fontalignment='1' fontcolor='#f5f5f5' fontsize='11'>Departments</run>
+                    </formatted-text>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='4375' id='53' type-v2='empty' w='10524' x='31333' y='43003'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='0' />
+                      <format attr='background-color' value='#77777793' />
+                    </zone-style>
+                  </zone>
+                </zone>
+                <zone h='18494' id='54' name='Departments' show-title='false' w='31287' x='10571' y='47378'>
+                  <layout-cache minwidth='241' type-h='cell' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone friendly-name='Location Title' h='4375' id='55' param='horz' type-v2='layout-flow' w='31287' x='10571' y='65872'>
+                  <zone h='4375' id='57' type-v2='empty' w='10714' x='10571' y='65872'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='0' />
+                      <format attr='background-color' value='#77777793' />
+                    </zone-style>
+                  </zone>
+                  <zone forceUpdate='true' h='4375' id='56' type-v2='text' w='9857' x='21285' y='65872'>
+                    <formatted-text>
+                      <run fontalignment='1' fontcolor='#f5f5f5' fontsize='11'>Location</run>
+                    </formatted-text>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='4375' id='58' type-v2='empty' w='10714' x='31142' y='65872'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='0' />
+                      <format attr='background-color' value='#77777793' />
+                    </zone-style>
+                  </zone>
+                </zone>
+                <zone friendly-name='Location Charts' h='25003' id='59' param='horz' type-v2='layout-flow' w='31287' x='10571' y='70247'>
+                  <zone fixed-size='337' h='25003' id='61' is-fixed='true' name='Map States' show-title='false' w='24642' x='10571' y='70247'>
+                    <layout-cache minheight='200' minwidth='200' type-h='scalable' type-w='scalable' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='25003' id='60' name='Location' show-title='false' w='6644' x='35213' y='70247'>
+                    <layout-cache cell-count-w='2' minheight='160' type-h='scalable' type-w='cell' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+                <zone-style>
+                  <format attr='border-color' value='#f28e2b' />
+                  <format attr='border-style' value='solid' />
+                  <format attr='border-width' value='3' />
+                  <format attr='background-color' value='#1b1b1b' />
+                </zone-style>
+              </zone>
+              <zone fixed-size='764' friendly-name=' Demo &amp; Income Sections' h='87875' id='21' is-fixed='true' param='vert' type-v2='layout-flow' w='54571' x='42072' y='7750'>
+                <zone fixed-size='368' friendly-name='Demo Section' h='46000' id='24' is-fixed='true' param='vert' type-v2='layout-flow' w='54143' x='42286' y='8125'>
+                  <zone forceUpdate='true' h='5250' id='25' type-v2='text' w='53715' x='42500' y='8500'>
+                    <formatted-text>
+                      <run bold='true' fontcolor='#f5f5f5' fontsize='14'>Demographics </run>
+                    </formatted-text>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone fixed-size='259' friendly-name='Demo Charts' h='32375' id='30' is-fixed='true' param='horz' type-v2='layout-flow' w='53715' x='42500' y='13750'>
+                    <zone fixed-size='179' h='31625' id='62' is-fixed='true' param='vert' type-v2='layout-flow' w='12786' x='42714' y='14125'>
+                      <zone forceUpdate='true' h='4375' id='63' type-v2='text' w='12786' x='42714' y='14125'>
+                        <formatted-text>
+                          <run fontalignment='1' fontcolor='#f5f5f5' fontsize='11'>Gender</run>
+                        </formatted-text>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                      <zone h='27250' id='64' name='Gender' show-title='false' w='12786' x='42714' y='18500'>
+                        <layout-cache minwidth='100' type-h='cell' type-w='scalable' />
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                    </zone>
+                    <zone fixed-size='27' friendly-name='Divider' h='31625' id='31' is-fixed='true' type-v2='empty' w='1929' x='55500' y='14125'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='0' />
+                        <format attr='background-color' value='#77777793' />
+                      </zone-style>
+                    </zone>
+                    <zone fixed-size='248' friendly-name='Education &amp; Age Charts' h='31625' id='65' is-fixed='true' param='vert' type-v2='layout-flow' w='17714' x='57429' y='14125'>
+                      <zone forceUpdate='true' h='4375' id='66' type-v2='text' w='17714' x='57429' y='14125'>
+                        <formatted-text>
+                          <run fontalignment='1' fontcolor='#f5f5f5' fontsize='11'>Education &amp; Age</run>
+                        </formatted-text>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                      <zone h='12502' id='67' name='Age Groups' show-title='false' w='17714' x='57429' y='18500'>
+                        <layout-cache cell-count-w='5' minheight='100' type-h='scalable' type-w='cell' />
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                      <zone h='14748' id='68' param='horz' type-v2='layout-flow' w='17714' x='57429' y='31002'>
+                        <zone h='14748' id='69' name='Age vs Education' show-title='false' w='10569' x='57429' y='31002'>
+                          <layout-cache cell-count-h='4' cell-count-w='5' non-cell-size-h='20' non-cell-size-w='80' type-h='cell' type-w='cell' />
+                          <zone-style>
+                            <format attr='border-color' value='#000000' />
+                            <format attr='border-style' value='none' />
+                            <format attr='border-width' value='0' />
+                            <format attr='margin' value='4' />
+                          </zone-style>
+                        </zone>
+                        <zone h='14748' id='70' name='Education Levels' show-title='false' w='7145' x='67998' y='31002'>
+                          <layout-cache cell-count-h='4' minwidth='100' type-h='cell' type-w='scalable' />
+                          <zone-style>
+                            <format attr='border-color' value='#000000' />
+                            <format attr='border-style' value='none' />
+                            <format attr='border-width' value='0' />
+                            <format attr='margin' value='4' />
+                          </zone-style>
+                        </zone>
+                      </zone>
+                    </zone>
+                    <zone fixed-size='32' friendly-name='Divider' h='31625' id='71' is-fixed='true' type-v2='empty' w='2286' x='75143' y='14125'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='0' />
+                        <format attr='background-color' value='#77777793' />
+                      </zone-style>
+                    </zone>
+                    <zone h='31625' id='72' param='vert' type-v2='layout-flow' w='18570' x='77429' y='14125'>
+                      <zone forceUpdate='true' h='4375' id='73' type-v2='text' w='18570' x='77429' y='14125'>
+                        <formatted-text>
+                          <run fontalignment='1' fontcolor='#f5f5f5' fontsize='11'>Education &amp; Perfomance</run>
+                        </formatted-text>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                      <zone h='27248' id='74' name='Education vs Perfomance' show-title='false' w='18570' x='77429' y='18500'>
+                        <layout-cache cell-count-h='4' cell-count-w='4' non-cell-size-h='40' non-cell-size-w='80' type-h='cell' type-w='cell' />
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                    </zone>
+                    <zone-style>
+                      <format attr='border-color' value='#4e79a7' />
+                      <format attr='border-style' value='solid' />
+                      <format attr='border-width' value='3' />
+                    </zone-style>
+                  </zone>
+                  <zone-style>
+                    <format attr='border-color' value='#f28e2b' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='3' />
+                    <format attr='background-color' value='#1b1b1b' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='300' friendly-name='Income Section' h='37500' id='27' is-fixed='true' param='vert' type-v2='layout-flow' w='54143' x='42286' y='54125'>
+                  <zone forceUpdate='true' h='5250' id='28' type-v2='text' w='53715' x='42500' y='54500'>
+                    <formatted-text>
+                      <run bold='true' fontcolor='#f5f5f5' fontsize='14'>Income</run>
+                    </formatted-text>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone fixed-size='205' friendly-name='Income Charts' h='25625' id='33' is-fixed='true' param='horz' type-v2='layout-flow' w='53715' x='42500' y='59750'>
+                    <zone h='24875' id='75' param='vert' type-v2='layout-flow' w='25607' x='42714' y='60125'>
+                      <zone forceUpdate='true' h='4375' id='76' type-v2='text' w='25607' x='42714' y='60125'>
+                        <formatted-text>
+                          <run fontalignment='1' fontcolor='#f5f5f5' fontsize='11'>Education &amp; Gender</run>
+                        </formatted-text>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                      <zone h='20500' id='77' name='Gender vs Education  Level' show-title='false' w='25607' x='42714' y='64500'>
+                        <layout-cache cell-count-h='4' minwidth='180' type-h='cell' type-w='scalable' />
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                    </zone>
+                    <zone fixed-size='32' h='24875' id='34' is-fixed='true' type-v2='empty' w='2286' x='68321' y='60125'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='0' />
+                        <format attr='background-color' value='#77777793' />
+                      </zone-style>
+                    </zone>
+                    <zone h='24875' id='78' param='vert' type-v2='layout-flow' w='25393' x='70607' y='60125'>
+                      <zone forceUpdate='true' h='4375' id='79' type-v2='text' w='25393' x='70607' y='60125'>
+                        <formatted-text>
+                          <run fontalignment='1' fontcolor='#f5f5f5' fontsize='11'>Age &amp; Salary</run>
+                        </formatted-text>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                      <zone h='20500' id='80' name='Age vs Salary' show-title='false' w='25393' x='70607' y='64500'>
+                        <layout-cache minheight='163' minwidth='177' type-h='scalable' type-w='scalable' />
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                    </zone>
+                    <zone-style>
+                      <format attr='border-color' value='#4e79a7' />
+                      <format attr='border-style' value='solid' />
+                      <format attr='border-width' value='3' />
+                    </zone-style>
+                  </zone>
+                  <zone-style>
+                    <format attr='border-color' value='#f28e2b' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='3' />
+                    <format attr='background-color' value='#1b1b1b' />
+                  </zone-style>
+                </zone>
+                <zone-style>
+                  <format attr='border-color' value='#f28e2b' />
+                  <format attr='border-style' value='solid' />
+                  <format attr='border-width' value='3' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone-style>
+              <format attr='border-color' value='#f28e2b' />
+              <format attr='border-style' value='solid' />
+              <format attr='border-width' value='3' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#4e79a7' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='3' />
+            <format attr='background-color' value='#555555' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{3F64B368-7BDA-4E08-97B0-4E4771E0B8A2}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='37'>
+    <window class='worksheet' name='test'>
+      <cards>
+        <edge name='left'>
+          <strip size='250'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='250'>
+            <card param='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:Calculation_1029354025973391372:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{53E9AFC9-7A57-4CDD-8434-47195A2D3BAF}' />
+    </window>
+    <window class='worksheet' name='BAN Hired'>
+      <cards>
+        <edge name='left'>
+          <strip size='191'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{193568C5-D2C9-4E4E-8257-65C76CC54F37}' />
+    </window>
+    <window class='worksheet' name='BAN Active '>
+      <cards>
+        <edge name='left'>
+          <strip size='238'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{6CDD43C0-55AF-471D-A556-D236272406B4}' />
+    </window>
+    <window class='worksheet' name='BAN Terminated'>
+      <cards>
+        <edge name='left'>
+          <strip size='297'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{9D841928-B1AC-4DE2-A3FB-AFF4DA199102}' />
+    </window>
+    <window class='worksheet' name='Hired by Year'>
+      <cards>
+        <edge name='left'>
+          <strip size='371'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{05A73813-84F2-4011-851E-B2E42974CAAD}' />
+    </window>
+    <window class='worksheet' name='Terminated by Year'>
+      <cards>
+        <edge name='left'>
+          <strip size='463'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{7C22B8DD-C551-4597-874A-6A98AA3AF63C}' />
+    </window>
+    <window class='worksheet' name='Departments'>
+      <cards>
+        <edge name='left'>
+          <strip size='578'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='200'>
+            <card pane-specification-id='2' param='[federated.13vkb6b1t5sr5v12uabqs1y1bipq].[none:Calculation_156500123461754880:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{393E6A89-705C-490B-B32B-75C400D007B3}' />
+    </window>
+    <window class='worksheet' name='Location'>
+      <cards>
+        <edge name='left'>
+          <strip size='468'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{13B19D20-DE04-4A7F-9BED-921D7032AD08}' />
+    </window>
+    <window class='worksheet' name='Map States'>
+      <cards>
+        <edge name='left'>
+          <strip size='311'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{38DE47BD-88A0-4F27-9B6E-D6FB3D965340}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Gender'>
+      <cards>
+        <edge name='left'>
+          <strip size='585'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{BD0F0040-7CE6-4CF3-A03F-B7D3F9A520A7}' />
+    </window>
+    <window class='worksheet' name='Age vs Education'>
+      <cards>
+        <edge name='left'>
+          <strip size='221'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{9022012E-856E-4F14-960B-FFE0ED2BBC72}' />
+    </window>
+    <window class='worksheet' name='Age Groups'>
+      <cards>
+        <edge name='left'>
+          <strip size='276'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{5D32848B-D02C-42C9-A56A-68029BE7225E}' />
+    </window>
+    <window class='worksheet' name='Education Levels'>
+      <cards>
+        <edge name='left'>
+          <strip size='345'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{DCEEF960-389C-4639-B7D7-926387E68770}' />
+    </window>
+    <window class='worksheet' name='Education vs Perfomance'>
+      <cards>
+        <edge name='left'>
+          <strip size='431'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{B2DC3C5F-1500-4D13-9E62-400DDB179A72}' />
+    </window>
+    <window class='worksheet' name='Gender vs Education  Level'>
+      <cards>
+        <edge name='left'>
+          <strip size='284'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{3AF140AD-F2C7-44B7-9536-2FD56A2323A4}' />
+    </window>
+    <window class='worksheet' name='Age vs Salary'>
+      <cards>
+        <edge name='left'>
+          <strip size='205'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{A0D94B10-A35F-48AA-8E48-104A6577C077}' />
+    </window>
+    <window class='dashboard' name='HR | Summary'>
+      <viewpoints>
+        <viewpoint name='Age Groups'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Age vs Education'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Age vs Salary'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='BAN Active '>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='BAN Hired'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='BAN Terminated'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Departments'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Education Levels'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Education vs Perfomance'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Gender'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Gender vs Education  Level'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Hired by Year'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Location'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Map States'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Terminated by Year'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='64' />
+      <simple-id uuid='{17629A86-E7E2-4AD6-B71D-4D49C529A942}' />
+    </window>
+  </windows>
+</workbook>
